@@ -1,0 +1,127 @@
+.contenedor0 {
+    margin-top: 0px;
+    margin-left: 250px;
+    font-family:"Comic Sans MS";
+    align-items: center;
+
+}
+
+/*---------BARRA DE NAVEGACIÓN--------------*/
+.barra1 {
+    width: 750px;
+    height: 60px;
+    border: silver solid;
+    background-color: #cccccc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    margin-left: 20px;
+}
+
+.Search {
+    width: 230px;
+    height: 20px;
+    border: black solid;
+    border-width: 2px;
+}
+
+.btn {
+    width: 70px;
+    height: 30px;
+    color: white;
+    background-color: #2b78e4;
+    font-size: 13px;
+    box-shadow: 3px 3px black;
+    margin-right: 20px;
+}
+
+/*------------CAJAS DE INFORMACION GENERALES-----------------*/
+.contenedor1 {
+    width: 750px;
+    height: 550px;
+    margin-top: 25px;
+    display: flex;
+}
+
+.columna1 {
+    height: 400px;
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.columna2 {
+    display: flex;
+    flex: 1;
+}
+
+.bloque1,.bloque2 {
+    border: black solid;
+    display: flex;
+    margin-bottom: 20px;
+    flex: 1;
+}
+
+.bloque3{
+    width: 240px;
+    height: 160px;
+    border: black solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+
+/*-------------DETALLES CAJA BLOQUES 1 Y 2-------------*/
+.division1{
+    margin-top: 5px;
+    align-items: center;
+}
+.division1 ul{
+    align-items: center;
+    list-style-type: none;
+    padding: 0px;
+    margin-left: 15px;
+    line-height: 5px;
+    text-align: center;
+}
+
+.boton1{
+    width: 90px;
+    height: 30px;
+    background-color: #ffd966;
+    font-size: 13px;
+    box-shadow: 3px 4px black;
+    margin-top: 10px;
+}
+
+.division2{
+    display: flex;
+    flex: 2;
+    align-items: center;
+
+}
+.division2 p{
+    margin-left: 30px;
+    font-size: 22px;
+
+}
+
+/*-------------DETALLES BLOQUE 3----------------*/
+
+.division3{
+    font-size: 15px;
+}
+.boton2{
+   width:190px ;
+   height: 30px;
+   background-color:  #93c47d;
+   font-size: 17px;
+   box-shadow: 4px 4px black;
+
+}
